@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app body {
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(72, 194, 167);
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #d2d5d0;
+}
+.hero {
+  background-color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  height: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.video {
+  background-color: #f9f9f9;
+  border-radius: 0px 0px 4px 4px;
+  height: 100%;
+  width: 100vh;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  display: flex;
+  padding: 35px 54px;
+}
+.logo__img {
+  margin-right: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.logo__text {
+  line-height: 3;
+  word-spacing: normal;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.main__page {
+  margin-top: -140px;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text__link {
+  line-height: 9;
+  text-decoration: none;
+  color: rgb(44, 153, 111);
+  margin-left: 25px;
+}
+
+.text__items {
+  line-height: 3;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.text__heading {
+  font-size: 30px;
+  color: #808089;
+}
+
+.player {
+  margin: 4rem 0rem;
+}
