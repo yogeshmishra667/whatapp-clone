@@ -7,7 +7,7 @@ export default function Text() {
       <div className="text__items">
         <p className="text__heading">To use whatsapp on your computer:</p>
 
-        <p>1. Open Whatsapp on your phone</p>
+        <p>1. Open Whatsapp on your phone...</p>
         <p>
           2. Tap
           <strong>
@@ -24,7 +24,7 @@ export default function Text() {
               <SettingsOutlined />
             </i>
           </strong>{' '}
-          and select <strong> Whatsapp Web</strong>
+          and select <strong> Whatsapp Web App</strong>
         </p>
         <p>3. Point your point to this screen to capture the code</p>
       </div>
