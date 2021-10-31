@@ -9,7 +9,7 @@ export default function App() {
       <div className="app">
         <div className="logo">
           <img className="logo__img" src={logo} alt="logo" />
-          <span className="logo__text">WHATAPP WEB</span>
+          <span className="logo__text">WHATSAPP WEB</span>
         </div>
         <div className="main__page">
           <MainPage />
